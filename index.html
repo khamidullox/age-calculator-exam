@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age calculator</title>
+    <link
+      rel="shortcut icon"
+      href="./images/icon-arrow.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <nav class="input">
+        <div class="input__div">
+          <label for="day">day</label>
+          <input id="day" class="input__day" type="number" placeholder="DD" />
+          <span class="span__erorr"></span>
+        </div>
+        <div class="input__div">
+          <label for="month">month</label>
+          <input
+            id="month"
+            class="input__month"
+            type="number"
+            placeholder="MM"
+          />
+          <span class="span__erorr"></span>
+        </div>
+        <div class="input__div">
+          <label for="year">year</label>
+          <input
+            id="year"
+            class="input__year"
+            type="number"
+            placeholder="YYYY"
+          />
+          <span class="span__erorr"></span>
+        </div>
+      </nav>
+      <div class="card__btn">
+        <hr />
+        <button class="btn__input">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="44"
+            viewBox="0 0 46 44"
+          >
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path
+                d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="card__age">
+        <h1 class="h1-age__years">
+          <span class="age__years card__sapn">--</span>years
+        </h1>
+        <h1 class="h1-age__months">
+          <span class="age__months card__sapn">--</span>months
+        </h1>
+        <h1 class="h1-age__years">
+          <span class="age__days card__sapn">--</span>days
+        </h1>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
